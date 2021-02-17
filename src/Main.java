@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(asdasd);
+        int mass = 82;
+        double growth = 1.82;
+        double imt = mass / (growth * growth);
+        System.out.println(imt);
     }
 }
